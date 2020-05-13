@@ -1,0 +1,5 @@
+{
+  "name": "bitkraft-backend-app",
+  "db": "mongodb://localhost/cricket",
+  "PORT": 3000
+}
