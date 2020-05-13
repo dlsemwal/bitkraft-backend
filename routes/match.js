@@ -7,6 +7,7 @@ router.get("/", async (req, res) => {
     { path: "teamA" },
     { path: "teamB" },
     { path: "venue" },
+    { path: "result" },
   ]);
 
   res.send(matches);
@@ -18,6 +19,7 @@ router.get("/:id", async (req, res) => {
     { path: "teamA" },
     { path: "teamB" },
     { path: "venue" },
+    { path: "result" },
   ]);
 
   res.send(matches);
