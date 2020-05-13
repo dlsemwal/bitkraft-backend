@@ -93,5 +93,7 @@ const result = new Result({
   manOfTheMatch: manOfTheMatch._id,
   outcome: "india won by 56 runs",
 });
+
+match.result = result._id
 match.save();
 result.save();

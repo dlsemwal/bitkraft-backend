@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/api/players", player);
+app.use("/api/player", player);
 app.use("/api/match", match);
 app.use("/api/result", result);
 app.use("/api/team", team);
